@@ -29,6 +29,7 @@
     if (self)
     {
         _tableView = tableView;
+        _tableView.dataSource = self;
         _items = items;
         _cellConfigurator = cellConfigurator;
     }
