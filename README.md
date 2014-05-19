@@ -1,9 +1,9 @@
 JVRBaseTableViewDataSource
 ==========================
 
-A basic, reusable and expandable UITableViewDataSource class, to take the clutter out of your UITableView classes.
+A basic, reusable and expandable UITableViewDataSource class, to take the clutter out of your UITableView classes. To use it, you will also need a class that conforms to the JVRCellConfiguratorDelegate, which will setup the individual cells, for the table view.
 
-To use this, you will also need a class that conforms to the JVRCellConfiguratorDelegate, which will setup the individual cells, for the table view. Example for a cell configurator:
+## Example for a cell configurator
 
 ```objc
 - (NSString *)fetchCellIdentifierForObject:(id)anObject
@@ -14,7 +14,7 @@ To use this, you will also need a class that conforms to the JVRCellConfigurator
     }
     else
     {
-        return @"regularCell";        
+        return @"regularCell";
     }
 }
 
@@ -25,7 +25,7 @@ To use this, you will also need a class that conforms to the JVRCellConfigurator
 }
 ```
 
-Example usage in a UITableViewController class:
+## Example usage in a UITableViewController class:
 
 ```objc
 - (void)viewDidLoad
