@@ -1,3 +1,3 @@
 language: objective-c
-xcode_workspace: "Lighter Table View/Lighter Table View.xcworkspace"
-xcode_scheme: CommonScheme
+xcode_workspace: Lighter Table View/Lighter Table View.xcworkspace
+xcode_scheme: Lighter Table View
