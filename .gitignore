@@ -69,6 +69,7 @@ build/
 # Xcode 5 - workspace settings
 
 *.xccheckout
+*.xcuserstate
 
 ####
 
