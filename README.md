@@ -36,6 +36,8 @@ A basic, reusable and expandable UITableViewDataSource class, to take the clutte
 
 - (void)setupDataSource
 {
-    self.dataSource = [JVRBaseTableViewDatasource datasourceForTableView:self.tableView withItems:@[@"test", @"item"] usingCellConfigurator:[[MyCellConfigurator alloc] init]];
+    self.dataSource = [JVRBaseTableViewDatasource datasourceForTableView:self.tableView 
+                                                               withItems:@[@"test", @"item"]
+                                                   usingCellConfigurator:[[MyCellConfigurator alloc] init]];
 }
 ```
