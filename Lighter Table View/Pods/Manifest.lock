@@ -1,0 +1,14 @@
+PODS:
+  - JVRBaseTableViewDataSource (0.0.1)
+
+DEPENDENCIES:
+  - JVRBaseTableViewDataSource (from `https://github.com/jozsef-vesza/JVRBaseTableViewDataSource.git`)
+
+EXTERNAL SOURCES:
+  JVRBaseTableViewDataSource:
+    :git: https://github.com/jozsef-vesza/JVRBaseTableViewDataSource.git
+
+SPEC CHECKSUMS:
+  JVRBaseTableViewDataSource: e9c0976a8b28de389646cbd8b5db427637ff8ded
+
+COCOAPODS: 0.32.1
