@@ -1,3 +1,4 @@
 language: objective-c
 xcode_workspace: Lighter Table View/Lighter Table View.xcworkspace
 xcode_scheme: Lighter Table View
+xcode_sdk: iphonesimulator
