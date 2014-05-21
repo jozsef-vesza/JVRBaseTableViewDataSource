@@ -1,5 +1,4 @@
 language: objective-c
-xcode_workspace: Lighter Table View/Lighter Table View.xcworkspace
-xcode_scheme: Lighter Table View
-xcode_sdk: iphonesimulator
-ONLY_ACTIVE_ARCH: NO
+script:
+  - xctool -workspace "Lighter Table View/Lighter Table View.xcworkspace" scheme "Lighter Table View" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -workspace "Lighter Table View/Lighter Table View.xcworkspace" scheme "Lighter Table View" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
