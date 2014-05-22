@@ -38,7 +38,7 @@ Cell configurator classes aim to encapsulate the logic that previously belonged 
 ```
 
 ### Example usage in a Table View Controller:
-By using `JVRBaseTableViewDataSource`, many lines of boilerplate code can be omitted from `UITableViewController` classes. Support for Table View Sections can be achieved by sublassing this class, and implementing the `numberOfSectionsInTableView:` method. 
+By using `JVRBaseTableViewDataSource`, many lines of boilerplate code can be omitted from `UITableViewController` classes. Support for table view sections can be achieved by sublassing this class, and implementing the `numberOfSectionsInTableView:` method. 
 
 ```objc
 - (void)viewDidLoad
