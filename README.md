@@ -25,7 +25,7 @@ A basic, reusable and expandable `UITableViewDataSource` class, to take the clut
 }
 ```
 
-### Example usage in a UITableViewController class:
+### Example usage in a Table view class:
 
 ```objc
 - (void)viewDidLoad
@@ -36,9 +36,8 @@ A basic, reusable and expandable `UITableViewDataSource` class, to take the clut
 
 - (void)setupDataSource
 {
-    self.dataSource = [JVRBaseTableViewDatasource
-                      datasourceForTableView:self.tableView
-                      withItems:@[@"test", @"item"]
-                      usingCellConfigurator:[[MyCellConfigurator alloc] init]];
+    self.dataSource = [JVRBaseTableViewDatasource datasourceForTableView:self.tableView
+                                                               withItems:@[@"test", @"item"]
+                                                   usingCellConfigurator:[[MyCellConfigurator alloc] init]];
 }
 ```
