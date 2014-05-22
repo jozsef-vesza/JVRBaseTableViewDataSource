@@ -41,6 +41,17 @@ Cell configurator classes aim to encapsulate the logic that previously belonged 
 By using `JVRBaseTableViewDataSource`, many lines of boilerplate code can be omitted from `UITableViewController` classes. Support for table view sections can be achieved by sublassing this class, and implementing the `numberOfSectionsInTableView:` method. 
 
 ```objc
+#import "JVRBaseTableViewDataSource.h"
+#import "MyCellConfigurator.h"
+
+@interface MyTableViewController ()
+
+@property (nonatomic, strong) JVRBaseTableViewDataSource *dataSource;
+
+@end
+
+@implementation MyTableViewController
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -53,4 +64,6 @@ By using `JVRBaseTableViewDataSource`, many lines of boilerplate code can be omi
                                                                withItems:@[@"test", @"item"]
                                                    usingCellConfigurator:[[MyCellConfigurator alloc] init]];
 }
+
+@end
 ```
