@@ -33,7 +33,6 @@ Cell configurator classes aim to encapsulate the logic that previously belonged 
 }
 
 @end
-
 ```
 
 ### Example usage in a Table View Controller:
