@@ -7,9 +7,8 @@ A basic, reusable and expandable `UITableViewDataSource` class, to take the clut
 Cell configurator classes aim to encapsulate the logic that previously belonged in the `tableView:cellForRowAtIndexPath:` method found in the `UITableViewDataSource` protocol. They can be used to return the reuse identifier for a cell according to the object it is supposed to show, and to customize its appearance or behavior.
 
 ```objc
-#import "JVRBaseTableViewDataSource.h"
-
 // MyCellConfigurator.h
+#import "JVRBaseTableViewDataSource.h"
 
 @interface MyCellConfigurator : NSObject<JVRCellConfiguratorDelegate>
 @end
@@ -41,6 +40,7 @@ Cell configurator classes aim to encapsulate the logic that previously belonged 
 By using `JVRBaseTableViewDataSource`, many lines of boilerplate code can be omitted from `UITableViewController` classes. Support for table view sections can be achieved by sublassing this class, and implementing the `numberOfSectionsInTableView:` method. 
 
 ```objc
+// MyTableViewController.h
 #import "JVRBaseTableViewDataSource.h"
 #import "MyCellConfigurator.h"
 
