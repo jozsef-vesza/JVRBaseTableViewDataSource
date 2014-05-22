@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  Cell configurator delegate protocol that must be implemented by the class responsible for table view cell customizations
+ */
 @protocol JVRCellConfiguratorDelegate <NSObject>
 
 /**
@@ -31,6 +34,9 @@
 
 @end
 
+/**
+ *  JVRBaseTableViewDataSource is meant to be used by UITableViewController classes as data source
+ */
 @interface JVRBaseTableViewDataSource : NSObject<UITableViewDataSource>
 
 /**
