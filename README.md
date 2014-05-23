@@ -62,7 +62,7 @@ By using `JVRBaseTableViewDataSource`, many lines of boilerplate code can be omi
 @end
 ```
 ### Installation
-You can just copy the source files in your project, but the recommended way of using this class in your project is installation through [CocoaPods](http://cocoapods.org/) with the following Podfile:
+You can just copy the source files into your project, but the recommended way of using this class in your project is installation through [CocoaPods](http://cocoapods.org/) with the following Podfile:
 ```ruby
 platform :ios, "7.1"
 
