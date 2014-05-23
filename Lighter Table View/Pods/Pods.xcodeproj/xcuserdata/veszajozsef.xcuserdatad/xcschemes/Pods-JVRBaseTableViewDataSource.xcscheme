@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "417E4DCB55A84882A75D205E"
+               BlueprintIdentifier = "35A1841DA37549748FD06FD7"
                BuildableName = "libPods-JVRBaseTableViewDataSource.a"
                BlueprintName = "Pods-JVRBaseTableViewDataSource"
                ReferencedContainer = "container:Pods.xcodeproj">

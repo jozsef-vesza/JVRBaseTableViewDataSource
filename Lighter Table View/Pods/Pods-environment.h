@@ -10,5 +10,5 @@
 #define COCOAPODS_POD_AVAILABLE_JVRBaseTableViewDataSource
 #define COCOAPODS_VERSION_MAJOR_JVRBaseTableViewDataSource 0
 #define COCOAPODS_VERSION_MINOR_JVRBaseTableViewDataSource 0
-#define COCOAPODS_VERSION_PATCH_JVRBaseTableViewDataSource 1
+#define COCOAPODS_VERSION_PATCH_JVRBaseTableViewDataSource 2
 
