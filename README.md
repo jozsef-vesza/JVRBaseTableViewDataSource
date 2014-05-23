@@ -1,4 +1,4 @@
-JVRBaseTableViewDataSource ![alt text](https://travis-ci.org/jozsef-vesza/JVRBaseTableViewDataSource.svg)
+JVRBaseTableViewDataSource [![Build Status](https://travis-ci.org/jozsef-vesza/JVRBaseTableViewDataSource.svg?branch=master)](https://travis-ci.org/jozsef-vesza/JVRBaseTableViewDataSource)
 ==========================
 
 A basic, reusable and expandable `UITableViewDataSource` class, to take the clutter out of your `UITableView` classes. To use it, you will also need a class that conforms to the `JVRCellConfiguratorDelegate`, which will setup the individual cells, for the table view. For details about the usage, see the simple examples below, or refer to the example project.
