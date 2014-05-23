@@ -42,7 +42,7 @@
 /**
  *  Convenience initializer method
  *
- *  @param tableView        The table view, which will use this instance as dataSource
+ *  @param tableView        The table view, which will use this instance as data source
  *  @param items            The items to show in the table view
  *  @param cellConfigurator The cell configurator instance to use for customizing table view cells
  *
