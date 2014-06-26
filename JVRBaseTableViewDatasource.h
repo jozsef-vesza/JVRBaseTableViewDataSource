@@ -55,4 +55,14 @@
  */
 @property (nonatomic, copy, readonly) NSArray *items;
 
+/**
+ *  Property to query table view
+ */
+@property (nonatomic, weak) UITableView *tableView;
+
+/**
+ *  Property to query configurator
+ */
+@property (nonatomic, strong) id<JVRCellConfiguratorDelegate> cellConfigurator;
+
 @end
