@@ -1,5 +1,4 @@
-JVRBaseTableViewDataSource [![Build Status](https://travis-ci.org/jozsef-vesza/JVRBaseTableViewDataSource.svg?branch=master)](https://travis-ci.org/jozsef-vesza/JVRBaseTableViewDataSource)
-==========================
+##JVRBaseTableViewDataSource [![Build Status](https://travis-ci.org/jozsef-vesza/JVRBaseTableViewDataSource.svg?branch=master)](https://travis-ci.org/jozsef-vesza/JVRBaseTableViewDataSource)
 A basic, reusable and expandable `UITableViewDataSource` class, to take the clutter out of your `UITableView` classes. To use it, you will also need a class that conforms to the `JVRCellConfiguratorDelegate`, which will setup the individual cells, for the table view. For details about the usage, see the simple examples below, or refer to the example project.
 ### Configuring Table View Cells
 Cell configurator classes aim to encapsulate the logic that previously belonged in the `tableView:cellForRowAtIndexPath:` method found in the `UITableViewDataSource` protocol. They can be used to return the reuse identifier for a cell according to the object it is supposed to show, and to customize its appearance or behavior.
