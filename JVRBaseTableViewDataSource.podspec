@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JVRBaseTableViewDataSource"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "A basic, reusable and expandable UITableViewDataSource class"
   s.homepage     = "https://github.com/jozsef-vesza/JVRBaseTableViewDataSource"
   s.license      = { :type => "MIT"}

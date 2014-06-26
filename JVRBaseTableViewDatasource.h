@@ -50,4 +50,9 @@
  */
 + (instancetype)datasourceForTableView:(UITableView *)tableView withItems:(NSArray *)items usingCellConfigurator:(id<JVRCellConfiguratorDelegate>)cellConfigurator;
 
+/**
+ *  Property to query items
+ */
+@property (nonatomic, copy, readonly) NSArray *items;
+
 @end
