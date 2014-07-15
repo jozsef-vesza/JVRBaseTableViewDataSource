@@ -58,11 +58,11 @@
 /**
  *  Property to query table view
  */
-@property (nonatomic, weak, readonly) UITableView *tableView;
+@property (nonatomic, weak) UITableView *tableView;
 
 /**
  *  Property to query configurator
  */
-@property (nonatomic, strong, readonly) id<JVRCellConfiguratorDelegate> cellConfigurator;
+@property (nonatomic, strong) id<JVRCellConfiguratorDelegate> cellConfigurator;
 
 @end
